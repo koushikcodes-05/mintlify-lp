@@ -1,0 +1,5 @@
+.doc-page{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 5fr;
+}
