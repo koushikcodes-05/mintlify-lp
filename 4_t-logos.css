@@ -1,9 +1,9 @@
 .logo-grid-container {
   width: 60vw;
-  margin: 0px auto;
+  margin: 80px auto;
   padding: 60px 0;
   background-color: #000;
-  z-index: -10px;
+ 
 }
 
 .logo-grid {

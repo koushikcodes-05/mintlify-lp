@@ -1,8 +1,8 @@
-.feature{
-    width: var(--width-main);
-    margin: auto;
-    z-index: -10px;
-    /* display: flex;
+.feature {
+  width: var(--width-main);
+  margin: auto;
+
+  /* display: flex;
     flex-direction: column;
     align-items: center; */
 }
@@ -28,18 +28,18 @@
   letter-spacing: 0.01em;
   word-spacing: 1px;
   color: #a0a0a0;
-  
+
   margin-left: auto;
   margin-right: auto;
 }
 
-.feature-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
 }
 
-.feature1  {
+.feature1 {
   background: #0a0a0a;
   border: 1px solid #1a1a1a;
   border-radius: 16px;
@@ -48,10 +48,10 @@
   flex-direction: column;
   align-items: start;
   gap: 10px;
-  padding-left:40px ;
+  padding-left: 40px;
   padding-top: 40px;
 }
-.feature2  {
+.feature2 {
   background: #0a0a0a;
   border: 1px solid #1a1a1a;
   border-radius: 16px;
@@ -59,7 +59,7 @@
   flex-direction: column;
   align-items: start;
   gap: 10px;
-  padding-left:40px ;
+  padding-left: 40px;
   padding-top: 40px;
 }
 
@@ -88,18 +88,16 @@
   word-spacing: 1px;
   color: #a0a0a0;
   width: 25vw;
- 
 }
 
-.feature-img{
+.feature-img {
   width: 20vw;
   padding-left: 30px;
 }
 
 /* 6th section intalligent assistent  */
 
-
-.i-assistent{
+.i-assistent {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,13 +106,12 @@
   border: 1px solid #1a1a1a;
   border-radius: 16px;
   width: 68vw;
-  height: 90vh;
+  height: auto;
+
   margin: auto;
-  
-  
 }
 
-.i-label{
+.i-label {
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -123,14 +120,14 @@
   margin: 60px 0 0 0;
 }
 
-.i-title{
+.i-title {
   font-size: 24px;
   font-weight: 600;
   line-height: 1.3;
   color: #ffffff;
   letter-spacing: -0.01em;
-} 
-.i-discription{
+}
+.i-discription {
   text-align: center;
   width: 40vw;
   font-size: 16px;
@@ -140,12 +137,13 @@
   letter-spacing: 0.01em;
   word-spacing: 1px;
   color: #a0a0a0;
-  
+
   margin-left: auto;
   margin-right: auto;
 }
 
-.i-image{
-  width: 68vw;
+.i-image {
+  max-width: 68vw;
   height: auto;
+  /* position: absolute; */
 }

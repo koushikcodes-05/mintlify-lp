@@ -1,0 +1,97 @@
+
+.enterprise-feature{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #141414;
+}
+.enterprise-main{
+    width: 68vw;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.em-top{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.em-top-left{
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* ← key line */
+  gap: 16px;
+
+}
+
+.em-top button {
+  padding: 14px 28px;      /* ↑ main size control */
+  font-size: 16px;         /* readable but not loud */
+  font-weight: 500;
+  border-radius: 999px;    /* pill shape = premium */
+  min-width: 220px;        /* fills space without stretching */
+  height: 48px;  
+  border: none;          /* standard CTA height */
+}
+
+.em-top button:hover{
+    cursor: pointer;
+    
+}
+
+
+.em-label{
+     font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #10b981;
+  margin: 60px 0 0 0;
+}
+.em-heading{
+  font-size: 38px;
+  width: 35vw;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.em-discription{
+     font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 60px 0;
+  letter-spacing: 0.01em;
+  word-spacing: 1px;
+  color: #a0a0a0;
+}
+
+/* Bottom portion of main  */
+.em-bottom-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.em-left-grid, .em-right-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.em-bottom-grid img{
+    height: 50px;
+    width: 60px;
+}
+
+.em-title{
+    font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.02em;
+  word-spacing: 2px;
+  color: #ffffff;
+}
